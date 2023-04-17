@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-  const message = 'Bem-vindo ao servidor, membro!';
+  const message = 'Bem-vindo ao Clube da Luta, se esse é seu priemrio dia, você tem que lutar!';
   member.send(message);
 });
 
